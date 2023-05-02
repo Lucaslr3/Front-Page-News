@@ -1,0 +1,167 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+main{
+    margin: 15px auto;
+    min-width: 320px;
+    max-width: 1024px;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+.logo{
+    position: static;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Inter'; 
+}
+.menu a{
+    color: rgb(0, 0, 26);
+}
+.menu li{
+    display: inline-block;
+    margin:13px;  
+}
+.menu a:hover{
+    color: rgb(232, 169, 160);
+}
+.painel-principal{
+    width: 75%;
+    height: 470px;
+    position: absolute;
+    
+}
+.painel-principal img{
+    width: 75%;
+}
+.titulo{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    width: 37%;
+    height: 150px;
+    font-family: 'inter';
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.conteudo-principal{
+    display: inline-block;
+    width: 37%;
+    height: 150px;
+    padding-top: 10px;
+    font-family: 'inter';
+    font-size: 1rem;
+}
+.conteudo-principal button{
+    position: relative;
+    top: 17px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(240, 94, 79);
+    color: antiquewhite;
+    font-family: 'Inter';
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+button a{
+    color: rgb(254, 255, 253);
+}
+button:hover{
+    background-color: rgb(0, 0, 26);
+}
+.painel-artigos{
+   position: absolute;
+   display: inline-block;
+   top: 0;
+   height: 440px;
+   margin-left: 15px;
+   padding: 20px 20px 0px;
+   text-align: justify;
+   background-color: rgb(0, 0, 26);
+   font-family: 'Inter';
+   color: rgb(254, 255, 253);
+   font-size: 0.9rem;
+}
+.painel-artigos h2{
+    color: rgb(230, 168, 61);
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.painel-artigos a{
+    color: rgb(254, 255, 253);
+}
+.painel-artigos a:hover{
+    color: rgb(230, 168, 61);
+}
+.painel-artigos li{
+    border-top: solid rgb(196, 193, 200) 1px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.painel-extras{
+    position: absolute;
+    width: 100%;
+    font-family: 'inter';
+    font-size: 0.9rem;
+}
+.painel-extras img{
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+.painel-extras h2{
+    color: rgb(196, 193, 200);
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.painel-extras a{
+    color: rgb(0, 0, 26);
+}
+.painel-extras a:hover{
+    color: rgb(232, 169, 160);
+}
+.extra1{
+    display: inline-block;
+    position: absolute;
+    width: 280px;
+    text-align: left;
+    padding-right: 30px;
+    margin-right: 22px;
+}
+.extra2{
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 280px;
+    text-align: left;
+    padding-right: 30px;
+    
+}
+.extra3{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 280px;
+    text-align: left;
+    padding-right: 30px;
+    margin-right: 22px;
+
+}
+
+
+
+
